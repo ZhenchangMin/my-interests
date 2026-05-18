@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Interests</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav">
+        <a href="index.html" class="nav-brand">M·I <span>/ homepage</span></a>
+        
+        <ul class="nav-links">
+            <li><a href="index.html" class="is-active">Homepage</a></li>
+            <li><a href="soccer.html">Soccer</a></li>
+            <li><a href="anime.html">Anime</a></li>
+            <li><a href="kpop.html">K-Pop</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-inner">
+            <div class="hero-eyebrow">A personal field guide</div>
+            <h1 class="hero-title">
+                <span class="word">My</span>
+                <span class="word">Interests</span>
+            </h1>
+            <p class="hero-lede">
+                Three obsessions, one notebook. <span class="hero-lede-sub">A quiet archive of —</span>
+            </p>
+            <ul class="hero-list">
+                <li>the games I shout at</li>
+                <li>the frames I rewind</li>
+                <li>the songs that won't leave my head</li>
+            </ul>
+        </div>
+
+        <aside class="hero-side">
+            <figure class="hero-cover" data-carousel>
+                <img src="images/soccer-hero.jpg" alt="Soccer — from the archive" class="is-active">
+                <img src="images/anime-hero.jpg" alt="Anime — from the archive">
+                <img src="images/kpop-hero.jpg" alt="K-Pop — from the archive">
+                <button type="button" class="hero-cover-nav hero-cover-prev" aria-label="Previous slide">‹</button>
+                <button type="button" class="hero-cover-nav hero-cover-next" aria-label="Next slide">›</button>
+                <figcaption class="hero-cover-tag">From the archive</figcaption>
+                <div class="hero-cover-dots">
+                    <button type="button" class="hero-cover-dot is-active" aria-label="Show slide 1"></button>
+                    <button type="button" class="hero-cover-dot" aria-label="Show slide 2"></button>
+                    <button type="button" class="hero-cover-dot" aria-label="Show slide 3"></button>
+                </div>
+            </figure>
+
+            <div class="hero-now">
+                <div class="now-head">
+                    <span class="now-dot"></span>
+                    Now / Recently
+                </div>
+                <ul class="now-list">
+                    <li>
+                        <span class="now-label">Watching</span>
+                        <span class="now-value">らき☆すた</span>
+                    </li>
+                    <li>
+                        <span class="now-label">On repeat</span>
+                        <span class="now-value">twice - Signal</span>
+                    </li>
+                    <li>
+                        <span class="now-label">Last match</span>
+                        <span class="now-value">New Castle 3-1 Westham United</span>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </section>
+
+    <section class="index" id="index">
+        <header class="index-head">
+            <h2>The Files</h2>
+            <span class="count">Three entries</span>
+        </header>
+
+        <a href="soccer.html" class="file reveal" data-theme="soccer">
+            <div class="file-text">
+                <h3>The Beautiful <em>Game</em></h3>
+                <div class="file-tags">
+                    <span class="file-tag">Soccer</span>
+                    <span class="file-tag">Tactics</span>
+                </div>
+                <p>Ninety minutes of devotion. Grass, rain, last-minute equalisers and the kind of silence only a missed penalty can buy.</p>
+                <span class="file-cta">Open the file <span>→</span></span>
+            </div>
+            <div class="file-img">
+                <img src="images/soccer-cover.jpg" alt="Aerial view of a soccer stadium" loading="lazy">
+            </div>
+        </a>
+
+        <a href="anime.html" class="file reveal" data-theme="anime">
+            <div class="file-text">
+                <h3>Frames per <em>Feeling</em></h3>
+                <div class="file-tags">
+                    <span class="file-tag">Animation</span>
+                    <span class="file-tag">Manga</span>
+                </div>
+                <p>Where ink meets memory. Late-night episodes, neon-stained streets, the smallest gestures animated into something you can't forget.</p>
+                <span class="file-cta">Open the file <span>→</span></span>
+            </div>
+            <div class="file-img">
+                <img src="images/anime-cover.jpg" alt="Neon signage on a Tokyo street" loading="lazy">
+            </div>
+        </a>
+
+        <a href="kpop.html" class="file reveal" data-theme="kpop">
+            <div class="file-text">
+                <h3>Stage <em>Light</em></h3>
+                <div class="file-tags">
+                    <span class="file-tag">K-Pop</span>
+                    <span class="file-tag">Twice</span>
+                </div>
+                <p>Songs on repeat, choreography rewound frame by frame. The exact second the bass drops and the arena turns into one voice.</p>
+                <span class="file-cta">Open the file <span>→</span></span>
+            </div>
+            <div class="file-img">
+                <img src="images/kpop-cover.jpg" alt="Performer under stage lighting" loading="lazy">
+            </div>
+        </a>
+    </section>
+
+    <footer class="footer">
+        <div>Zhenchang Min</div>
+        <div class="center">A personal interest guide</div>
+        <div class="right">Cooperated with Claude · Web Dev Learning</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
